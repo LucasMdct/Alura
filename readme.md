@@ -11,8 +11,8 @@ A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que ofer
 
   📂 Alura <br>
   * ── 📂 ReactNative <br>
-   -   ├── 📂 react_native_do_zero <br>
-   -       └── 📄 README.md (Descrição do Projeto) <br>
+     - ── 📂 react_native_do_zero <br>
+        - └── 📄 README.md (Descrição do Projeto) <br>
   * ── ... <br>
   * ── 📄 README.md (Este arquivo) <br>
 
