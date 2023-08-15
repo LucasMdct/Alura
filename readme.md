@@ -10,11 +10,11 @@ A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que ofer
 
 
   📂 Alura <br>
-  ├── 📂 ReactNative <br>
+  * ── 📂 ReactNative <br>
    -   ├── 📂 react_native_do_zero <br>
    -       └── 📄 README.md (Descrição do Projeto) <br>
-  ├── ... <br>
-  └── 📄 README.md (Este arquivo) <br>
+  * ── ... <br>
+  * ── 📄 README.md (Este arquivo) <br>
 
 
 Cada subpasta dentro da pasta "Alura" corresponde a um curso específico de uma tecnologia e cada pasta dentro do curso corresponde a um projeto específico que estou trabalhando como parte dos cursos da Alura. Cada pasta de projeto pode conter os arquivos e diretórios relevantes para o projeto em questão. Além disso, cada projeto tem seu próprio arquivo README.md que fornece informações detalhadas sobre o projeto, como objetivos, tecnologias usadas e passos importantes.
