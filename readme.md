@@ -8,7 +8,7 @@ A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que ofer
 
 ## Estrutura do Repositório
 
-<p align="center">
+<p align="right">
   📂 Alura <br>
   ├── 📂 ReactNative <br>
   │   ├── 📂 react_native_do_zero <br>
