@@ -7,12 +7,13 @@ Bem-vindo ao meu repositório de projetos Alura! Aqui você encontrará uma cole
 A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que oferece diversos cursos nas áreas de tecnologia, design e negócios. Os cursos abrangem uma variedade de tópicos, desde desenvolvimento web até ciência de dados e muito mais.
 
 ## Estrutura do Repositório
-📂 Alura
-├── 📂 ReactNative
-│ ├── 📂 react_native_do_zero
-│ └── 📄 README.md (Descrição do Projeto)
-├── ...
-└── 📄 README.md (Este arquivo)
+
+📂 Alura <br>
+├── 📂 ReactNative <br>
+│ ├── 📂 react_native_do_zero <br>
+│ └── 📄 README.md (Descrição do Projeto) <br>
+├── ... <br>
+└── 📄 README.md (Este arquivo) <br>
 
 
 Cada subpasta dentro da pasta "Alura" corresponde a um curso específico de uma tecnologia e cada pasta dentro do curso corresponde a um projeto específico que estou trabalhando como parte dos cursos da Alura. Cada pasta de projeto pode conter os arquivos e diretórios relevantes para o projeto em questão. Além disso, cada projeto tem seu próprio arquivo README.md que fornece informações detalhadas sobre o projeto, como objetivos, tecnologias usadas e passos importantes.
