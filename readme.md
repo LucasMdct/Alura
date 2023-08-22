@@ -17,11 +17,10 @@ A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que ofer
   * ── 📄 README.md (Este arquivo) <br>
 
 
-Cada subpasta dentro da pasta "Alura" corresponde a um curso específico de uma tecnologia e cada pasta dentro do curso corresponde a um projeto específico que estou trabalhando como parte dos cursos da Alura. Cada pasta de projeto pode conter os arquivos e diretórios relevantes para o projeto em questão. Além disso, cada projeto tem seu próprio arquivo README.md que fornece informações detalhadas sobre o projeto, como objetivos, tecnologias usadas e passos importantes.
+Each subfolder within the "Alura" folder corresponds to a specific course in a technology, and each folder within the course corresponds to a specific project that I am working on as part of Alura courses. Each project folder can contain files and directories relevant to the project in question. Additionally, each project has its own README.md file that provides detailed information about the project, such as goals, technologies used, and important steps.
+## Completed Projects
 
-## Projetos Concluídos
-
-- [React Native](./ReactNative/readme.md)
+- [Orgs-Cesta React Native](./ReactNative/react_native_zero/orgs-basket/readme.md)
 - ...
 
 ## Contato
