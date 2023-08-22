@@ -27,7 +27,7 @@ const stylesbasket_top = StyleSheet.create({
         textAlign: "center",
         fontSize: 16,
         lineHeight: 26,
-        color: "black",
+        color: "#fff",
         fontWeight: "bold",
         padding: 16,
     },
