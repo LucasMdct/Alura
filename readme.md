@@ -1,20 +1,19 @@
-# Meus Projetos Alura
+# My Alura Projects
 
-Bem-vindo ao meu repositório de projetos Alura! Aqui você encontrará uma coleção de projetos que estou desenvolvendo como parte dos cursos da Alura.
+Welcome to my Alura project repository! Here you will find a collection of projects that I am developing as part of Alura courses.
 
-## Sobre a Alura
+## About Alura
 
-A [Alura](https://www.alura.com.br/) é uma plataforma de ensino online que oferece diversos cursos nas áreas de tecnologia, design e negócios. Os cursos abrangem uma variedade de tópicos, desde desenvolvimento web até ciência de dados e muito mais.
-
-## Estrutura do Repositório
+[Alura](https://www.alura.com.br/) is an online teaching platform that offers several courses in the areas of technology, design and business. Courses cover a variety of topics from web development to data science and much more.
+## Repository Structure
 
 
   📂 Alura <br>
   * ── 📂 ReactNative <br>
-     - ── 📂 react_native_do_zero <br>
+     - ── 📂 react_native_zero <br>
         - └── 📄 README.md (Descrição do Projeto) <br>
   * ── ... <br>
-  * ── 📄 README.md (Este arquivo) <br>
+  * ── 📄 README.md (This file) <br>
 
 
 Each subfolder within the "Alura" folder corresponds to a specific course in a technology, and each folder within the course corresponds to a specific project that I am working on as part of Alura courses. Each project folder can contain files and directories relevant to the project in question. Additionally, each project has its own README.md file that provides detailed information about the project, such as goals, technologies used, and important steps.
@@ -23,13 +22,13 @@ Each subfolder within the "Alura" folder corresponds to a specific course in a t
 - [Orgs-Cesta React Native](./ReactNative/react_native_zero/orgs-basket/readme.md)
 - ...
 
-## Contato
+## Contact
 
-Se você tiver alguma pergunta, sugestão ou apenas quiser bater um papo comigo sobre tecnologia, fique à vontade para entrar em contato comigo!
+If you have any questions, suggestions or just want to chat with me about technology, feel free to contact me!
 
-- Email Pessoal: lucasmedeiroscosta07@gmail.com
+- Email: lucasmedeiroscosta07@gmail.com
 - LinkedIn: [Lucas Medeiros](https://www.linkedin.com/in/medeirosdev)
 - GitHub: [LucasMdct](https://github.com/lucasmdct)
-- Site Pessoal: [MedeirosDev](https://medeirosdev.cloud)
+- Web: [MedeirosDev](https://medeirosdev.cloud)
 ---
-*Última atualização: 15/08/2023.*
+*Last update: 22/08/2023.*
