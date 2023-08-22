@@ -23,7 +23,7 @@ Follow these steps to configure and run the project locally:
 
 3. Install the dependencies: `npm install` 
 
-4. Execute a aplicação: `npm start`
+4. Run the application: `npm start`
 
 
 ## Contact
