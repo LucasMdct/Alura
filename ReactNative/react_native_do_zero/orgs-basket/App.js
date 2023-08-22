@@ -12,7 +12,7 @@ export default function App() {
   const [fontLoading] = useFonts({
     "MontserratRegular": Montserrat_400Regular,
     "MontserratBold": Montserrat_700Bold,
-  });R
+  });
   
   const onLayoutRootView = useCallback(async () => {
     if (fontLoading) {
