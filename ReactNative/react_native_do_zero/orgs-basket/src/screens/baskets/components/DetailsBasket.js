@@ -3,25 +3,21 @@ import MyText from "../../../components/Text";
 import logo from '../../../../assets/logo-farm.png';
 import { StyleSheet,View, Image } from "react-native";
 
-export default function DetailsBasket() {
+export default function DetailsBasket({ name, logoFarm, nameFarm, description, price}) {
     return <>
     <View style={styleBasketDetails.basket}>
-        <MyText style={styleBasketDetails.name}>Basket of Vegetables</MyText>
+        <MyText style={styleBasketDetails.name}>{name}</MyText>
         <View style={styleBasketDetails.farm}>
-            <Image source={logo} style={styleBasketDetails.imageFarm} />
-            <MyText style={styleBasketDetails.nameFarm}>Jenny Jack Farm</MyText>
+            <Image source={logoFarm} style={styleBasketDetails.imageFarm} />
+            <MyText style={styleBasketDetails.nameFarm}>{nameFarm}</MyText>
         </View>
-        <MyText style={styleBasketDetails.description}>a basket with selected products carefully selected from the farm straight to your kitchen.</MyText>
-        <MyText style={styleBasketDetails.price}>U$10.00</MyText>
+        <MyText style={styleBasketDetails.description}>{description}</MyText>
+        <MyText style={styleBasketDetails.price}>{price}</MyText>
     </View>
     </>
 }
 
 const styleBasketDetails = StyleSheet.create({
-    basket: {
-        paddingVertical: 8,
-        paddingHorizontal: 16,
-    },
     name: {
         fontSize: 29,
         lineHeight: 42,

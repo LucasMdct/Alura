@@ -7,10 +7,10 @@ import banner from '../../../../assets/banner.png';
 
 const width = Dimensions.get('screen').width;
 
-export default function Top() {
+export default function Top({ title }) {
     return <>
         <Image source={banner} style={stylesbasket_top.bannerstyle} />
-        <MyText style={stylesbasket_top.title}>Basket details</MyText>
+        <MyText style={stylesbasket_top.title}>{title}</MyText>
 
     </>
 }

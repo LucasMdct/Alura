@@ -1,18 +1,23 @@
 import React from "react";
-import {StyleSheet,} from "react-native";
+import {StyleSheet, View} from "react-native";
 
 import Top from "./components/Top";
 import DetailsBasket from "./components/DetailsBasket";
 
-function Basket() {
+function Basket({top , details}) {
     return <>
-        <Top/>
-        <DetailsBasket></DetailsBasket>
+        <Top {...top}/>
+        <View style={stylebasket.basket}>
+        <DetailsBasket {...details}/>
+        </View>
     </>
 }
 
 const stylebasket = StyleSheet.create({
-
+    basket: {
+        paddingVertical: 8,
+        paddingHorizontal: 16,
+    },
 });
 
 export default Basket;
