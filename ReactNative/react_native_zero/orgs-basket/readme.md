@@ -1,10 +1,12 @@
+# Orgs-Cesta: Visualization
+![GIF](./visualization.gif)
 
 # Orgs-Cesta: Application Documentary
 
 Orgs-Cesta is an application that aims to simplify the management of food baskets for non-profit organizations. This application so far is only front-end.
 
 We created some reusable components; we create and use components from React Native itself, such as FlatList, StyleSheet and View.
-
+ß
 we also use Text in MyText. We use Image to display images. We used SafeAreaView to create that safe area, so we can run on both Android and iOS, we styled it so that all the things on the screen look nice.
 
 We also work with external libraries, such as fonts. We use @expo-google-fonts, we use expo-splash-screen to make the app wait and stay on the loading screen while this font loads.
