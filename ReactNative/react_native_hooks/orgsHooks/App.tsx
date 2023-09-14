@@ -1,10 +1,19 @@
 
 import React from 'react';
-import { Text  } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import Home from './src/screens/Home/index';
 
 function App() {
-  return <Text> Hello World Native Puro</Text>
+  return <SafeAreaView style={styleApp.screen}>
+    <Home />
+  </SafeAreaView>
 
 }
+
+const styleApp = StyleSheet.create({
+  screen: {
+    flex: 1,
+  }
+})
 
 export default App;
