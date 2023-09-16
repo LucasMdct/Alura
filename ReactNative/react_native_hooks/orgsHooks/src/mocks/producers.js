@@ -15,31 +15,31 @@ const producers = {
     list: [{
         name: "Green",
         img_producers: green,
-        distance: `${generateRandomNumber(1, 500)} m`,
+        distance: generateRandomNumber(1, 500),
         stars: generateRandomNumber(1, 5),
     },
     {
         name: "Grow",
         img_producers: grow,
-        distance: `${generateRandomNumber(1, 500)} m`,
+        distance: generateRandomNumber(1, 500),
         stars: generateRandomNumber(1, 5),
     },
     {
         name: "Jenny Jack",
         img_producers: jenny_jack,
-        distance: `${generateRandomNumber(1, 500)} m`,
+        distance: generateRandomNumber(1, 500),
         stars: generateRandomNumber(1, 5),
     },
     {
         name: "Potager",
         img_producers: potager,
-        distance: `${generateRandomNumber(1, 500)} m`,
+        distance: generateRandomNumber(1, 500),
         stars: generateRandomNumber(1, 5),
     },
     {
         name: "salad",
         img_producers: salad,
-        distance: `${generateRandomNumber(1, 500)} m`,
+        distance: generateRandomNumber(1, 500),
         stars: generateRandomNumber(1, 5),
     },
     ]

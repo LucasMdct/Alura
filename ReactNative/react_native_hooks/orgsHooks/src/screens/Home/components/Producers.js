@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, {useState, useEffect }from "react";
 import { FlatList, StyleSheet, Text } from "react-native";
 
-import { loadProducers } from "../../../services/loadData";
+import useProducers from '../../../hooks/useProducers';
+
 import Producer from "./Producer";
 
 export default function Producers({top: Top}) {
-    const [title, setTitle] = useState('');
-    const [list, setList] = useState('');
-
-    useEffect(() => {
-        const regress = loadProducers();
-        setTitle(regress.title);
-        setList(regress.list);
-        //console.log(regress);
-    }, []);
+    const [title, list] = useProducers();
 
     const listTop = () => {
         return <>

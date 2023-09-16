@@ -9,7 +9,8 @@ export default function Stars({
     editable = false,
     big = false,
 }) {
-    const [ quantity , setQuantity ]  = useState(oldQuantity);
+    const [ quantity , setQuantity ]  = useState(oldQuantity );
+
 
 
     const RenderStars = () => {
