@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
    ```
    - Android
    ```sh
-   npx react-native run-android
+q   npx react-native run-android
    ```
 
 Make sure you have an Android or Ios emulator running or a physical Android or Ios device connected.
