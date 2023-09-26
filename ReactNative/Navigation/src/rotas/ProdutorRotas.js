@@ -6,6 +6,7 @@ import Produtor from '../telas/Produtor';
 import Cesta from '../telas/Cesta';
 import ResumoCompra from '../telas/Resumo';
 
+
 const Stack = createNativeStackNavigator();
 
 export default function ProdutorRotas({ ComponentePrincipal = Home }) {
