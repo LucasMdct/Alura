@@ -1,3 +1,3 @@
 
 # Orgs-Navigation: Visualization
-![GIF](./giphy.mp4)
+![GIF](./giphy.gif)
