@@ -10,25 +10,25 @@ export default function Repositorios({ route, navigation }) {
     const [nomeRepo, setNomeRepo] = useState('');
     const atualizarTela = useIsFocused();
 
-    async function buscarRepositorioPorNome() {
-           if (nomeRepo.trim() === '') {
-        // Não fazer a busca se o campo estiver vazio
-        return;
-    }
+    // async function buscarRepositorioPorNome() {
+    //        if (nomeRepo.trim() === '') {
+    //     // Não fazer a busca se o campo estiver vazio
+    //     return;
+    // }
 
-    const resultado = await PegarRepositoriosDoUsuarioPeloNome(route.params.id, nomeRepo);
-    setRepo(resultado);
-    setNomeRepo('');
-    }
+    // const resultado = await PegarRepositoriosDoUsuarioPeloNome(route.params.id, nomeRepo);
+    // setRepo(resultado);
+    // setNomeRepo('');
+    // }
 
     useEffect(() => {
         async function fetchData() {
-            const resultado = await searchRepos(route.params.id);
+            const resultado = await searchRepos(route.params.username);
             setRepo(resultado);
         }
 
         fetchData();
-    }, [atualizarTela]);
+    }, [atualizarTela, username]);
 
     return (
         <View style={estilos.container}>

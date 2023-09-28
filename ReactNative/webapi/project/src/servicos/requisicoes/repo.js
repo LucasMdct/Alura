@@ -1,9 +1,10 @@
 import api from "../api";
 
-export async function searchRepos(id){
+
+export async function searchRepos(username){
     try {
-        const resultado = await api.get(`/repos?postId=${id}`)  
-        return resultado.data
+    const resposta = await api.get(`users/${username}/repos`);
+    return resposta.data;
     }
     catch(error) {
         console.log(error)

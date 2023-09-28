@@ -4,11 +4,19 @@ import api from "../api"
 
 export async function buscaUsuario(nomeUsuario) {
     try {
-        const resultado = await api.get(`/users?login=${nomeUsuario}`)  
-        return resultado.data[0]
-    }
-    catch(error) {
-        console.log(error)
-        return {}
+       const url = `users/${nomeUsuario}`;
+    
+       const resultado = await api.get(url);
+
+       return resultado.data;
+
+   }catch(error) {
+            if (error.response && error.response.status === 403) {
+            console.log("Erro 403: Você não tem permissão para acessar este recurso.");
+        } else {
+            console.error("Ocorreu um erro ao buscar o usuário:", error);
+        }
+        return {};
+
     }
 }
