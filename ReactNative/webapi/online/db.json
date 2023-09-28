@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "login": "lucas",
+      "id": 1,
+      "avatar_url": "https://avatars.githubusercontent.com/u/133173057?s=400&u=77b40d69b1bad807f9cd589a3a261a72676a4a75&v=4",
+      "name": "Lucas Medeiros Costa",
+      "email": "lucas.costa@db1.com.br",
+      "followers": 443,
+      "following": 546
+    },
+    {
+      "login": "natalia",
+      "id": 2,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9091491?v=4",
+      "name": "Natalia Kelim Thiel",
+      "email": "natalia@email.com",
+      "followers": 51,
+      "following": 7
+    }
+  ],
+  "repos": [
+    {
+      "id": 3,
+      "name": "Bootcamp_DB1",
+      "data": "27 de set. de 2023",
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "name": "BackEnd_GYM-projectBootCampDB1",
+      "data": "1 de jul. de 2023",
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "name": "2048evolution",
+      "data": "1 de jan. de 2021",
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "name": "alura-pikachu",
+      "data": "1 de jan. de 2021",
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "name": "alura-react-native-comecando-do-zero",
+      "data": "1 de jan. de 2021",
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "name": "Javascript-Introdução",
+      "data": "1 de ago. de 2023",
+      "postId": 1
+    }
+  ]
+}
