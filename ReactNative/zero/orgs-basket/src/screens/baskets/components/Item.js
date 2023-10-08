@@ -5,7 +5,7 @@ import { View, Image, StyleSheet } from "react-native";
 
 export default function Item({ item: { name, img } }) {
     return <View style={StyleItems.liststyle}>
-            <Image source={img} style={StyleItems.imge}></Image>
+            <Image source={img} style={StyleItems.imge} testID="item-image"></Image>
             <MyText style={StyleItems.name}>{name}</MyText>
         </View>
 }

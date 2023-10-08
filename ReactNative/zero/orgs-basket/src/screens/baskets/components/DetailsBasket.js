@@ -5,7 +5,7 @@ import ButtonApp from "../../../components/ButtonApp";
 
 export default function DetailsBasket({ name, logoFarm, nameFarm, description, price, buttonbuy  }) {
     return <>
-        <View style={styleBasketDetails.basket}>
+        <View style={styleBasketDetails.basket} testID="DetailsBasket">
             <MyText style={styleBasketDetails.name}>{name}</MyText>
             <View style={styleBasketDetails.farm}>
                 <Image source={logoFarm} style={styleBasketDetails.imageFarm} />
@@ -13,7 +13,7 @@ export default function DetailsBasket({ name, logoFarm, nameFarm, description, p
             </View>
             <MyText style={styleBasketDetails.description}>{description}</MyText>
             <MyText style={styleBasketDetails.price}>{price}</MyText>
-            <ButtonApp text={buttonbuy} style={styleBasketDetails.buy} onPress={() => {Alert.alert("Comprou a cesta , Obrigado pela preferencia")}}></ButtonApp>
+            <ButtonApp text={buttonbuy} style={styleBasketDetails.buy} onPress={() => {Alert.alert("Comprou a cesta , Obrigado pela preferencia")}} ></ButtonApp>
         </View> 
     </>
 }

@@ -9,7 +9,7 @@ const width = Dimensions.get('screen').width;
 
 export default function Top({ title }) {
     return <>
-        <Image source={banner} style={stylesbasket_top.bannerstyle} />
+        <Image source={banner} style={stylesbasket_top.bannerstyle} testID="top-image"/>
         <MyText style={stylesbasket_top.title}>{title}</MyText>
 
     </>

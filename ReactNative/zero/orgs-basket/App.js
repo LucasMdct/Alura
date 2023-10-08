@@ -6,7 +6,6 @@ import mock from './src/mocks/basket';
 import * as SplashScreen from 'expo-splash-screen';
 
 
-SplashScreen.preventAutoHideAsync();
  
 export default function App() {
   const [fontLoading] = useFonts({
@@ -26,7 +25,7 @@ export default function App() {
 
 
   return (
-      <SafeAreaView onLayout={onLayoutRootView} style={{ flex: 1}}>
+      <SafeAreaView onLayout={onLayoutRootView} style={{ flex: 1}}  testID="splashScreen">
       <StatusBar />
         <Basket {...mock}/>
       </SafeAreaView>

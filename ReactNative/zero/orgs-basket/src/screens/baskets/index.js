@@ -9,6 +9,7 @@ import MyText from "../../components/Text";
 export default function Basket({ top, details, BuyItems }) {
     return <>
         <FlatList
+            testID="BasketMock"
             data={BuyItems.list}
             renderItem={Item}
             keyExtractor={({ name }) => name }
