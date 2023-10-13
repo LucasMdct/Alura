@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 import Home from './src/screens/Home/index';
 
 function App() {
-  return <SafeAreaView style={styleApp.screen}>
+  return <SafeAreaView style={styleApp.screen} testID='App'>
     <Home />
   </SafeAreaView>
 

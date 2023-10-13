@@ -17,6 +17,7 @@ export default function Producers({top: Top}) {
     }
 
     return <FlatList 
+    testID="Flat"
     data={list}
     renderItem={({item}) => <Producer {...item}/>}
     keyExtractor={({name}) => name}

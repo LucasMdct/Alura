@@ -19,14 +19,18 @@ export default function Stars({
             listStars.push(
                 <Star 
                 key={i} 
+                index={i}
                 onPress={() => setQuantity(i+1)} 
                 halt={!editable} 
                 completed={i >= quantity}
-                big={big}/>
+                big={big} 
+                testID={`star-${i}`} 
+                labelTes/>
             );
         }
 
         return listStars;
+        
     }
 
     return <View style={starStyle.starsFlex}>

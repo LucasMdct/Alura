@@ -4,7 +4,6 @@ import Stars from "../../../components/Stars";
 
 
 const distanceMeters = (distance) => {
-    console.log('distance Meters');
     return `${distance}m`;
 }
 
@@ -21,7 +20,7 @@ export default function Producer({ name, img_producers, distance, stars }) {
     
     return <TouchableOpacity
         style={styleProducer.card}
-        onPress={invertSelect}>
+        onPress={invertSelect} testID="Card">
         <Image source={img_producers} accessibilityLabel={name} style={styleProducer.img} />
         <View style={styleProducer.about}>
             <View>

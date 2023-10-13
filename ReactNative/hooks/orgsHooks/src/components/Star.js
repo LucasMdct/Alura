@@ -6,7 +6,7 @@ import starGrey from '../assets/starGrey.png';
 
 
 
-export default function Star({ onPress, halt = false, completed, big = false, }) {
+export default function Star({ onPress, halt = false, completed, big = false, index }) {
 
     const styles = starStyleFunction(big);
 
@@ -18,6 +18,8 @@ export default function Star({ onPress, halt = false, completed, big = false, })
     }
 
     return <TouchableOpacity
+        accessibilityHint={`Star`}
+        testID={`star-${index}`}  
         onPress={onPress}
         disabled={halt}>
         <Image source={getImage()} style={styles.star} />
