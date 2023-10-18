@@ -28,7 +28,7 @@ describe('App Component', () => {
         expect(SplashScreen.hideAsync).not.toHaveBeenCalled();
 
         // Simula o evento onLayoutRootView
-        await act(async () => {
+         act(() => {
             getByTestId('splashScreen').props.onLayout();
         });
 

@@ -8,7 +8,7 @@ import MyText from "../../../src/components/Text";
 describe('Componente de Texto', () => {
 
     it('Deve renderizar o componente texto sem erros',() => {
-        const { toJson , getByText} = render(<MyText>Texto Sendo Testado</MyText>);
+        const { getByText} = render(<MyText>Texto Sendo Testado</MyText>);
 
 
         const textoNoComponente = getByText('Texto Sendo Testado');
