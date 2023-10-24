@@ -22,7 +22,7 @@ describe('App.js', () => {
     AppRotas.mockImplementation(() => <View testID="AppRotasMock" />);
 
     // criando um const toJSON , e renderizando o App NELA
-    const { toJSON } = render(<App />);
+    const { toJSON ,debug } = render(<App />);
 
     // os Snapshots é uma representacao serializada da saida do componente em um determinado momento. isso inclui a estrutura
     // do componente, as propriedades , os estilos e o conteudo renderizado .
@@ -30,6 +30,8 @@ describe('App.js', () => {
     // estado ou cenario , durante o primeiro teste , um snapshot e gerado e salvo em um arquivo. em testes subsequentes, o
     // componente e renderizado novamente e comparado com o snapshot salvo. se eles corresponderem, o teste passa; se nao
     // o teste falha
+
+    debug();
     expect(toJSON()).toMatchSnapshot();
   });
 });

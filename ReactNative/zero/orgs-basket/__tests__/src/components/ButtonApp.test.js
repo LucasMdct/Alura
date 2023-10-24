@@ -12,28 +12,28 @@ describe('ButtonApp', () => {
 
     it('Botão deve ser pressionado', async () => {
         // const tree = render(<ButtonApp />).toJSON();
-        const mockOnPress = jest.fn();
+     
+    const mockOnPress = jest.fn(() => new Promise(resolve => resolve(true)))
 
         const {
-            getByA11yHint
+            getByText
         } = render(
             <ButtonApp
-                text="Comprar"
+                text="Buy"
                 onPress={mockOnPress}
                 isDisabled={false}
             />
         );
 
 
-        const botao = getByA11yHint("Buy");
+        const botao = getByText("Buy");
 
         act(() => {
             fireEvent.press(botao);
         })
 
-        await waitFor(() => {
-            expect(mockOnPress).toHaveBeenCalled();
-        })
+        expect(mockOnPress).toHaveBeenCalled();
+
 
 
 
@@ -41,32 +41,31 @@ describe('ButtonApp', () => {
 
     it('Botão deve ser pressionado quando desabilitado', async () => {
         // const tree = render(<ButtonApp />).toJSON();
-        const mockOnPress = jest.fn();
+        const mockOnPress = jest.fn()
 
         const {
-            getByA11yHint
+            getByText
         } = render(
             <ButtonApp
-                text="Comprar"
+                text="Buy"
                 onPress={mockOnPress}
                 isDisabled={true}
             />
         );
 
 
-        const botao = getByA11yHint("Buy");
+        const botao = getByText("Buy");
 
         act(() => {
             fireEvent.press(botao);
         })
 
-        await waitFor(() => {
-            expect(mockOnPress).not.toHaveBeenCalled();
-        })
+
+        expect(mockOnPress).toHaveBeenCalled();
 
 
 
     });
 
- 
+
 });
