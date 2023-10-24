@@ -1,6 +1,11 @@
+import Banner from "../../components/Banner";
 
 export default function Inicio() {
     return (
-        <h1>ola mundo !!</h1>
+        <main>
+            <Banner/>
+
+            <h1>Ola mundo</h1>
+        </main>
     )
 }
