@@ -50,6 +50,8 @@ Each subfolder within the "Alura" folder corresponds to a specific course in a t
   **JAVASCRIPT**
 - [FirstProgramming JS_Exploring_the_language](./JavaScript/JS_Exploring_the_language/FirstProgramming/readme.md)
 - ...
+ <br>
+
   **REACT**
 - [ola-mundo React](./React/ReactRouter/ola-mundo/README.md)
 - [hooks useEffect React](./React/useEffect/hooks/README.md)
@@ -59,6 +61,8 @@ Each subfolder within the "Alura" folder corresponds to a specific course in a t
 - [organomain useState React](./React/useState/organomain/README.md)
 - [viteProject useState React](./React/useState/viteProject/README.md)
 - ...
+ <br>
+ 
   **REACT-NATIVE**
 - [Orgs-Basket React Native](./ReactNative/zero/orgs-basket/readme.md)
 - [Orgs-hooks React Native](./ReactNative/hooks/orgsHooks/README.md)
