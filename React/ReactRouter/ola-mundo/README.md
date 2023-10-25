@@ -90,7 +90,7 @@ Siga as instruções abaixo para iniciar o projeto em sua máquina local.
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/LucasMdct/Alura.git
 ```
 2. Acesse o diretório do projeto:
 
