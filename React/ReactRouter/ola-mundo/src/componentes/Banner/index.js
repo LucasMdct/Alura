@@ -1,6 +1,6 @@
 import styles from './Banner.module.css';
 import circuloColorido from 'assets/circulo_colorido.png';
-import minhaFoto from 'assets/file.jpeg'
+import minhaFoto from 'assets/minha_foto.png'
 
 export default function Banner() {
     return (
@@ -11,7 +11,7 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu Sou Lucas Medeiros Dev Trainee Mobile da DB1 GLOBAL SOFTWARE. Aqui compartilho vários conhecimentos, espero que aprenda algo novo
+                    Boas vindas ao meu espaço pessoal! Eu sou o Lucas, atualmente como Dev Trainee na DB1 GLOBAL SOFTWARE, e aqui compartilho com vocês meus projetos finalizado e oque estão em andamento.
                 </p>
             </div>
 
@@ -25,7 +25,7 @@ export default function Banner() {
                 <img
                     className={styles.minhaFoto}
                     src={minhaFoto}
-                    alt="Foto do Antônio Evaldo sorrindo"
+                    alt="Foto de LUCAS MEDEIROS"
                 />
             </div>
         </div>
