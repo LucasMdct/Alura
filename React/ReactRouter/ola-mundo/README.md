@@ -8,11 +8,8 @@ Aprenda a criar interfaces do usuário com React, um dos frameworks JavaScript m
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Começando](#começando)
   - [Pré-requisitos](#pré-requisitos)
-  - [Instalação](#instalação)
-- [Uso](#uso)
+  - [Instalação e Inicialização](#instalação-inicialização)
 - [Módulos](#módulos)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 - [Contato](#contato)
 
 ## Sobre o Projeto
@@ -88,7 +85,7 @@ Siga as instruções abaixo para iniciar o projeto em sua máquina local.
 
 - Node.js e npm instalados. [Instale o Node.js aqui](https://nodejs.org/).
 
-### Instalação
+### Instalação-Inicialização
 
 1. Clone o repositório:
 
@@ -116,7 +113,7 @@ npm start
 ```
 
 
-### Contact
+## Contact
 
 Se você tiver alguma pergunta, sugestão ou simplesmente quiser bater um papo comigo sobre tecnologia, sinta-se à vontade para entrar em contato!
 
