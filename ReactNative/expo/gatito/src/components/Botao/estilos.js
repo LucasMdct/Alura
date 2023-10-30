@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { cores } from '../../estilos';
+import { cores } from '../../estilos/estilosGlobal';
 
 export default (pequeno, invertido) => StyleSheet.create({
   botao: {

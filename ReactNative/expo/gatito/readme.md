@@ -20,6 +20,13 @@ Este é um projeto React Native que foi criado a partir do zero durante uma aula
 - Configuração de uma splash screen.
 - Mudança do ícone do aplicativo.
 
+<h5>Módulo 02: Construção da Tela de Serviços</h5>
+Nesta aula, construímos a primeira tela, a tela de serviços, com uma lista de serviços fixa e o botão de adicionar ao carrinho estilizados. Os conceitos aprendidos nesta aula foram:
+
+- Como criar um componente e utilizá-lo em outro componente.
+- Utilizar SafeAreaView e StatusBar para que nossas telas não sejam sobrepostas aos elementos do dispositivo, como a barra de status e barra inferior de gestos do iPhone.
+- Formatar moedas com intl.
+
 ## Começando
 
 Siga as instruções abaixo para iniciar o projeto em sua máquina local.
