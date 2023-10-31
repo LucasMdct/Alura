@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 import { TouchableOpacity, View, Text } from 'react-native';
 
-import Campo  from '../../../components/Campo';
-import Botao from '../../../components/Botao';
+import CampoInteiro from '../../../componentes/CampoInteiro';
+import Botao from '../../../componentes/Botao';
 
-import estilos from './estilosItem';
+import estilos from './estilos';
 
 export default function Item({nome, preco, descricao}) {
   const [quantidade, setQuantidade] = useState(1);
@@ -41,7 +41,7 @@ export default function Item({nome, preco, descricao}) {
         <View>
           <View style={estilos.valor}>
             <Text style={estilos.descricao}>Quantidade:</Text>
-            <Campo estilos={estilos.quantidade} valor={quantidade} acao={atualizaQuantidadeTotal} />
+            <CampoInteiro estilos={estilos.quantidade} valor={quantidade} acao={atualizaQuantidadeTotal} />
           </View>
           <View style={estilos.valor}>
             <Text style={estilos.descricao}>Total:</Text>
@@ -52,7 +52,7 @@ export default function Item({nome, preco, descricao}) {
             }</Text>
           </View>
         </View>
-        <Botao valor="Adicionar" acao={() => {}} />
+        <Botao valor="Adicionar ao Carrinho" acao={() => {}} />
       </View>
     }
     <View style={estilos.divisor} />

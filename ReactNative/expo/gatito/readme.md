@@ -27,6 +27,13 @@ Nesta aula, construímos a primeira tela, a tela de serviços, com uma lista de 
 - Utilizar SafeAreaView e StatusBar para que nossas telas não sejam sobrepostas aos elementos do dispositivo, como a barra de status e barra inferior de gestos do iPhone.
 - Formatar moedas com intl.
 
+<h5>Módulo 03: Construção da Tela do Carrinho</h5>
+Neste módulo, você aprendeu:
+
+- Ajustar a tela utilizando KeyboardAvoidingView para evitar que o teclado sobreponha os campos.
+- Como utilizar o método reduce nativo do JavaScript para agregar valores.
+- Criar um componente padrão para reutilizar sempre que for necessário, a fim de prevenir problemas de layout em Android e iOS.
+
 ## Começando
 
 Siga as instruções abaixo para iniciar o projeto em sua máquina local.
