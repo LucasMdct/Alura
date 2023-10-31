@@ -34,6 +34,13 @@ Neste módulo, você aprendeu:
 - Como utilizar o método reduce nativo do JavaScript para agregar valores.
 - Criar um componente padrão para reutilizar sempre que for necessário, a fim de prevenir problemas de layout em Android e iOS.
 
+<h5>Módulo 04: Construção de Navegação</h5>
+Neste módulo, você aprendeu:
+
+- Instalamos a biblioteca, dependências e tipos de navegação;
+- Configuramos nosso arquivo de rotas;
+- Estilizamos o menu inferior.
+
 ## Começando
 
 Siga as instruções abaixo para iniciar o projeto em sua máquina local.
