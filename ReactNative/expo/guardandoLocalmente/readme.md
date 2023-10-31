@@ -20,6 +20,13 @@ Este é um projeto React Native que foi criado a partir do zero durante uma aula
 - Salvar a nota dentro do AsyncStorage;
 - Mostrar a nota no console.
 
+
+<h5>No Módulo 02: Salvando mais Notas, aprendi como:</h5>
+
+- Como criar uma identificação única de forma dinâmica;
+- Funções para pegar todas as entradas do AsyncStorage;
+- A utilização do FlatList para mostrar todas as notas na página principal.
+ 
 ## Começando
 
 Siga as instruções abaixo para iniciar o projeto em sua máquina local.
