@@ -26,6 +26,14 @@ Este é um projeto React Native que foi criado a partir do zero durante uma aula
 - Como criar uma identificação única de forma dinâmica;
 - Funções para pegar todas as entradas do AsyncStorage;
 - A utilização do FlatList para mostrar todas as notas na página principal.
+
+<h5>No Módulo 03: SQLite e banco de Dados, aprendi como:</h5>
+
+- As vantagens e desvantagens da ferramenta atual (AsyncStorage);
+- Instalação do SQLite;
+- Separação da responsabilidade de acessar o banco de dados dos componentes principais;
+- A criação da tabela de Notas;
+- Como criar statements/queries para acessar informações do banco de dados.
  
 ## Começando
 
