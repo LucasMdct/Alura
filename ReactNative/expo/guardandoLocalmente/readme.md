@@ -35,6 +35,13 @@ Este é um projeto React Native que foi criado a partir do zero durante uma aula
 - A criação da tabela de Notas;
 - Como criar statements/queries para acessar informações do banco de dados.
  
+ <h5>No Módulo 04: Populando o banco de dados, aprendi como:</h5>
+
+- Como criar statements/queries para adicionar, mostrar, editar e deletar uma nota;
+- Condições para uma nota estar selecionada;
+- Como lidar com os estados de uma nota selecionada;
+- Atualizações de qualidade de vida, como fechar a modal assim que uma nota for adicionada, deletada ou editada.
+
 ## Começando
 
 Siga as instruções abaixo para iniciar o projeto em sua máquina local.
