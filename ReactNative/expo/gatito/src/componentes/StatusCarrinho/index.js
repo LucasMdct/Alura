@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 import Botao from '../Botao';
 import estilos from './estilos';
 
-export default function StatusCarrinho({ total }) {
+export default function StatusCarrinho({ total, dis, onPress }) {
   return <View style={estilos.conteudo}>
     <View style={estilos.total}>
       <Text style={estilos.descricao}>Total do Carrinho:</Text>
@@ -18,7 +18,7 @@ export default function StatusCarrinho({ total }) {
       </Text>
     </View>
     <View style={estilos.botao}>
-      <Botao valor='Concluir Pedido' invertido />
+      <Botao valor='Concluir Pedido' invertido disable={dis} acao={onPress}/>
     </View>
   </View>
 }

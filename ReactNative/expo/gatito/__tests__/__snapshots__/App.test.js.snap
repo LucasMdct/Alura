@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App deve renderizar sem erros 1`] = `
+[
+  <RCTSafeAreaView
+    style={
+      {
+        "backgroundColor": "#A050BE",
+        "flex": 1,
+      }
+    }
+    testID="safeAreaViewTop"
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flex": 1,
+          },
+          {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+      testID="keyboardView"
+    >
+      <View
+        testID="RotasMock"
+      />
+    </View>
+  </RCTSafeAreaView>,
+  <RCTSafeAreaView
+    style={
+      {
+        "backgroundColor": "#FABE50",
+        "flex": 0,
+      }
+    }
+    testID="safeAreaViewBottom"
+  />,
+]
+`;

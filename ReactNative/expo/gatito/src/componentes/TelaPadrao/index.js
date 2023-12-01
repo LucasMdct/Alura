@@ -6,16 +6,17 @@ import estilos from './estilos';
 
 export default function TelaPadrao({ children }) {
   return <>
-    <SafeAreaView style={estilos.ajusteTela}>
+    <SafeAreaView testID="safeAreaViewTop" style={estilos.ajusteTela} >
       <StatusBar />
       <KeyboardAvoidingView
+        testID="keyboardView"
         behavior={Platform.OS == "ios" ? "padding" : "height"}
         style={estilosGlobal.preencher}
       >
         {children}
       </KeyboardAvoidingView>
     </SafeAreaView>
-    <SafeAreaView style={estilos.ajusteTelaBaixo} />
+    <SafeAreaView testID="safeAreaViewBottom" style={estilos.ajusteTelaBaixo} />
   </>
 
 }

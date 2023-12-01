@@ -15,7 +15,8 @@ export default function CampoInteiro({valor, estilos, acao}) {
 
   const numeroEmTexto = String(valor);
 
-  return <TextInput 
+  return <TextInput
+    testID="campoInteiro" 
     style={[estilosPadrao.campo, estilos]}
     keyboardType='number-pad'
     selectTextOnFocus
