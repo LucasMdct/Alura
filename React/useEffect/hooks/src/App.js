@@ -7,7 +7,7 @@ function App() {
   const [ busca , setBusca ] = useState('');
 
   useEffect(() => {
-    fetch(`http://localhost:8080/doguinhos`)
+    fetch(`http://localhost:3000/doguinhos`)
       .then(resposta => resposta.json())
       .then(dados => {
         setRacas(dados)
@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     if(busca && busca.length > 3) { 
-    fetch(`http://localhost:8080/doguinhos?nome=${busca}`)
+    fetch(`http://localhost:3000/doguinhos?nome=${busca}`)
     .then(resposta => resposta.json())
     .then(dados => {
       setRacas(dados)
