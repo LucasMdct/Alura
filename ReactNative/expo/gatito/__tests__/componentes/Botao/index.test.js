@@ -17,6 +17,8 @@ describe('Componentes/Botao', () => {
         });
         
         expect(mockBotao).toHaveBeenCalled();
+
+        debug();
         
     });
 

@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">62.5% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/8</span>
+                <span class='fraction'>0/9</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">25% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/4</span>
+                <span class='fraction'>0/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">62.5% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/8</span>
+                <span class='fraction'>0/9</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -125,19 +125,21 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -160,36 +162,34 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { useState } from 'react';
 &nbsp;
-import { View, Text } from 'react-native';
+import { View, Text, Alert} from 'react-native';
 &nbsp;
 import CampoInteiro from '../../../componentes/CampoInteiro';
 import Botao from '../../../componentes/Botao';
 &nbsp;
 import estilos from './estilos';
 &nbsp;
-export default function Item({nome, preco, descricao, quantidade: quantidadeInicial}) {
-  const [quantidade, setQuantidade] = useState(quantidadeInicial);
-  const [total, setTotal] = useState(preco * quantidadeInicial);
+export default function <span class="fstat-no" title="function not covered" >Item(</span>{nome, preco, descricao, quantidade: quantidadeInicial}) {
+  const [quantidade, setQuantidade] = <span class="cstat-no" title="statement not covered" >useState(quantidadeInicial);</span>
+  const [total, setTotal] = <span class="cstat-no" title="statement not covered" >useState(preco * quantidadeInicial);</span>
 &nbsp;
-  const atualizaQuantidadeTotal = <span class="fstat-no" title="function not covered" >(n</span>ovaQuantidade) =&gt; {
+  const atualizaQuantidadeTotal = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ovaQuantidade) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    setQuantidade(novaQuantidade);</span>
 <span class="cstat-no" title="statement not covered" >    calculaTotal(novaQuantidade)</span>
   }
 &nbsp;
-  const calculaTotal = <span class="fstat-no" title="function not covered" >(n</span>ovaQuantidade) =&gt; {
+  const calculaTotal = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ovaQuantidade) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    setTotal(novaQuantidade * preco);</span>
   }
 &nbsp;
-  return &lt;&gt;
+<span class="cstat-no" title="statement not covered" >  return &lt;&gt;</span>
     &lt;View style={estilos.informacao}&gt;
       &lt;Text style={estilos.nome}&gt;{ nome }&lt;/Text&gt;
       &lt;Text style={estilos.descricao}&gt;{ descricao }&lt;/Text&gt;
@@ -214,7 +214,7 @@ export default function Item({nome, preco, descricao, quantidade: quantidadeInic
           }&lt;/Text&gt;
         &lt;/View&gt;
       &lt;/View&gt;
-      &lt;Botao valor="Remover do Carrinho" acao={<span class="fstat-no" title="function not covered" >()</span> =&gt; {}} /&gt;
+      &lt;Botao valor="Remover do Carrinho" acao={<span class="fstat-no" title="function not covered" >()</span> =&gt; { <span class="cstat-no" title="statement not covered" >Alert.alert('Gatito', 'Produto removido com sucesso. ');}</span>} /&gt;
     &lt;/View&gt;
     &lt;View style={estilos.divisor} /&gt;
   &lt;/&gt;
@@ -226,7 +226,7 @@ export default function Item({nome, preco, descricao, quantidade: quantidadeInic
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-12-01T21:39:24.388Z
+                at 2023-12-01T23:09:02.194Z
             </div>
         <script src="../../../../../prettify.js"></script>
         <script>

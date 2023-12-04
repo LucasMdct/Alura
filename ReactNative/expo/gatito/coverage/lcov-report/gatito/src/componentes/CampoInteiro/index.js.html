@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>9/9</span>
+                <span class='fraction'>0/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>0/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>0/8</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -95,23 +95,23 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -120,24 +120,24 @@
 import { TextInput } from 'react-native';
 import estilosPadrao from './estilos';
 &nbsp;
-export default function CampoInteiro({valor, estilos, acao}) {
-  const atualiza = (novoValor, acaoRetorno) =&gt; {
-    const verificaInteiro = novoValor.match(/^[0-9]*$/);
-    if (!verificaInteiro) return;
+export default function <span class="fstat-no" title="function not covered" >CampoInteiro(</span>{valor, estilos, acao}) {
+  const atualiza = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ovoValor, acaoRetorno) =&gt; {</span>
+    const verificaInteiro = <span class="cstat-no" title="statement not covered" >novoValor.match(/^[0-9]*$/);</span>
+<span class="cstat-no" title="statement not covered" >    if (!verificaInteiro) <span class="cstat-no" title="statement not covered" >return;</span></span>
 &nbsp;
-    const removeZeroEsquerda = novoValor.replace(/^(0)(.+)/, '$2');
+    const removeZeroEsquerda = <span class="cstat-no" title="statement not covered" >novoValor.replace(/^(0)(.+)/, '$2');</span>
 &nbsp;
-    acaoRetorno(removeZeroEsquerda);
+<span class="cstat-no" title="statement not covered" >    acaoRetorno(removeZeroEsquerda);</span>
   }
 &nbsp;
-  const numeroEmTexto = String(valor);
+  const numeroEmTexto = <span class="cstat-no" title="statement not covered" >String(valor);</span>
 &nbsp;
-  return &lt;TextInput
+<span class="cstat-no" title="statement not covered" >  return &lt;TextInput</span>
     testID="campoInteiro" 
     style={[estilosPadrao.campo, estilos]}
     keyboardType='number-pad'
     selectTextOnFocus
-    onChangeText={(novoValor) =&gt; {atualiza(novoValor, acao)}}
+    onChangeText={<span class="fstat-no" title="function not covered" >(n</span>ovoValor) =&gt; {<span class="cstat-no" title="statement not covered" >atualiza(novoValor, acao)}</span>}
     value={numeroEmTexto}
   /&gt;
 }
@@ -148,7 +148,7 @@ export default function CampoInteiro({valor, estilos, acao}) {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-12-01T21:39:24.388Z
+                at 2023-12-01T23:09:02.194Z
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

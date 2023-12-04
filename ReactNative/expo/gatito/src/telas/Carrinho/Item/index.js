@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { View, Text } from 'react-native';
+import { View, Text, Alert} from 'react-native';
 
 import CampoInteiro from '../../../componentes/CampoInteiro';
 import Botao from '../../../componentes/Botao';
@@ -45,7 +45,7 @@ export default function Item({nome, preco, descricao, quantidade: quantidadeInic
           }</Text>
         </View>
       </View>
-      <Botao valor="Remover do Carrinho" acao={() => {}} />
+      <Botao valor="Remover do Carrinho" acao={() => { Alert.alert('Gatito', 'Produto removido com sucesso. ');}} />
     </View>
     <View style={estilos.divisor} />
   </>

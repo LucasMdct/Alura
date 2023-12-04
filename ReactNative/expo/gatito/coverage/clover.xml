@@ -1,133 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1701466764419" clover="3.2.0">
-  <project timestamp="1701466764419" name="All files">
-    <metrics statements="47" coveredstatements="44" conditionals="14" coveredconditionals="13" methods="25" coveredmethods="22" elements="86" coveredelements="79" complexity="0" loc="47" ncloc="47" packages="10" files="17" classes="17"/>
+<coverage generated="1701472142334" clover="3.2.0">
+  <project timestamp="1701472142334" name="All files">
+    <metrics statements="48" coveredstatements="4" conditionals="14" coveredconditionals="3" methods="25" coveredmethods="2" elements="87" coveredelements="9" complexity="0" loc="48" ncloc="48" packages="10" files="17" classes="17"/>
     <package name="gatito">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/App.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="Rotas.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/Rotas.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
       </file>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/estilos.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="9" count="13" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.componentes.Botao">
-      <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/Botao/estilos.js">
-        <metrics statements="1" coveredstatements="1" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="4" count="12" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/Botao/index.js">
-        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="7" count="12" type="stmt"/>
-        <line num="8" count="12" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.componentes.CampoInteiro">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/CampoInteiro/estilos.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/CampoInteiro/index.js">
-        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="16" count="9" type="stmt"/>
-        <line num="18" count="9" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.componentes.StatusCarrinho">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/StatusCarrinho/estilos.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/StatusCarrinho/index.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="3" type="stmt"/>
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.componentes.TelaPadrao">
-      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/TelaPadrao/estilos.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/componentes/TelaPadrao/index.js">
-        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
+        <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.telas.Carrinho">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Carrinho/index.js">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="40" count="4" type="stmt"/>
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.telas.Carrinho.Item">
-      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Carrinho/Item/estilos.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Carrinho/Item/index.js">
-        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
-        <line num="19" count="4" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.telas.Servicos">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Servicos/index.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="4" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
       </file>
     </package>
     <package name="gatito.src.telas.Servicos.Item">
-      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="estilos.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Servicos/Item/estilos.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="index.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/gatito/src/telas/Servicos/Item/index.js">
-        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-        <line num="11" count="10" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="16" count="4" type="stmt"/>
-        <line num="17" count="4" type="stmt"/>
-        <line num="20" count="10" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="24" count="10" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="29" count="10" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
+        <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
       </file>
     </package>
   </project>
