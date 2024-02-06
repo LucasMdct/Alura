@@ -1,0 +1,82 @@
+{
+  "produtos": [
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 1
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 2
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 3
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 4
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 5
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 6
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 7
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 8
+    },
+    {
+      "imagem": 21,
+      "texto": "Camisa bonita",
+      "preco": 80,
+      "id": 9
+    },
+    {
+      "imagem": 19,
+      "texto": "Tenis bacana",
+      "preco": 100,
+      "id": 10
+    },
+    {
+      "imagem": 19,
+      "texto": "Tenis bacana",
+      "preco": 100,
+      "id": 11
+    },
+    {
+      "imagem": 19,
+      "texto": "Tenis bacana",
+      "preco": 100,
+      "id": 12
+    },
+    {
+      "imagem": 19,
+      "texto": "Tenis bacana",
+      "preco": 100,
+      "id": 13
+    }
+  ]
+}

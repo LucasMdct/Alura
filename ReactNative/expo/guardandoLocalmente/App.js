@@ -31,13 +31,14 @@ export default function App() {
         data={notas}
         renderItem={(nota) => <Nota {...nota} setNotaSelecionada={setNotaSelecionada}/>}
         keyExtractor={nota => nota.id}
+        testID="flatlist"
         ListHeaderComponent={() => {return (
           <View style={estilos.picker}>
-            <Picker selectedValue={categoria} onValueChange={(categoriaSelecionada) => filtraLista(categoriaSelecionada)}>
-              <Picker.Item label="Todos" value="Todos"/>
-              <Picker.Item label="Pessoal" value="Pessoal"/>
-              <Picker.Item label="Trabalho" value="Trabalho"/>
-              <Picker.Item label="Outros" value="Outros"/>
+            <Picker selectedValue={categoria} onValueChange={(categoriaSelecionada) => filtraLista(categoriaSelecionada)} testID="picker">
+              <Picker.Item label="Todos" value="Todos" testID="Todos" />
+              <Picker.Item label="Pessoal" value="Pessoal" testID="Pessoal"/>
+              <Picker.Item label="Trabalho" value="Trabalho" testID="Trabalho"/>
+              <Picker.Item label="Outros" value="Outros" testID="Outros"/>
             </Picker>
           </View>
         )}}/>  

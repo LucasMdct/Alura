@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1701780636179" clover="3.2.0">
+  <project timestamp="1701780636179" name="All files">
+    <metrics statements="90" coveredstatements="27" conditionals="8" coveredconditionals="3" methods="49" coveredmethods="8" elements="147" coveredelements="38" complexity="0" loc="90" ncloc="90" packages="3" files="5" classes="5"/>
+    <package name="guardandoLocalmente">
+      <metrics statements="19" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="6"/>
+      <file name="App.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/guardandoLocalmente/App.js">
+        <metrics statements="19" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="6"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="guardandoLocalmente.src.components">
+      <metrics statements="46" coveredstatements="11" conditionals="6" coveredconditionals="2" methods="18" coveredmethods="2"/>
+      <file name="Nota.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/guardandoLocalmente/src/components/Nota.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="NotaEditor.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/guardandoLocalmente/src/components/NotaEditor.js">
+        <metrics statements="41" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="15" coveredmethods="2"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="guardandoLocalmente.src.servicos">
+      <metrics statements="25" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="23" coveredmethods="0"/>
+      <file name="Notas.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/guardandoLocalmente/src/servicos/Notas.js">
+        <metrics statements="22" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="22" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="SQlite.js" path="/Users/lucas.costa/Documents/Projects_Mac/Alura/ReactNative/expo/guardandoLocalmente/src/servicos/SQlite.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
