@@ -1,15 +1,17 @@
-const customer1Name = "Lucas";
-const customer1Cpf = 11122244409;
-const customer1Agency = 1001;
-const customer1Balance = 0;
+import { Customer } from './Customer.js';
+import { AccountCurrent } from './accountCurrent.js';
 
-const customer2Name = "Douglas";
-const customer2Cpf = 11166644409;
-const customer2Agency = 1001;
-const customer2Balance = 7005456;
+const customer1 = new Customer("Ricardo", 11122233309);
+const customer2 = new Customer("Alice", 88822233309);
 
-const customer3Name = "Cleber";
-const customer3Cpf = 11166655509;
-const customer3Agency = 1001;
-const customer3Balance = 250000;
 
+const accountCurrentRicardo = new AccountCurrent(1001, customer1);
+accountCurrentRicardo.deposit(500);
+accountCurrentRicardo.toWithdraw(100);
+
+const accountCurrentAlice = new AccountCurrent(102, customer2);
+
+let value = 200;
+accountCurrentRicardo.transfer(value, accountCurrentAlice);
+
+console.log(accountCurrentRicardo);
