@@ -4,7 +4,7 @@ Essa seção específica tem a finalidade de trazer os cursos da alura que tem r
 
 # Seções
 
-Ultimo teste de configuração de maquina para iniciar os estudos
+Ultimo teste de configuração de maquina para iniciar os estudos teste
 
 ## Informações sobre Alura
 
