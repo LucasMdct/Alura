@@ -4,7 +4,7 @@ Essa seção específica tem a finalidade de trazer os cursos da alura que tem r
 
 # Seções
 
-Testando configuração da maquina git
+Testando configuração da maquina git pelo vs code
 
 ## Informações sobre Alura
 
